@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>SVG Animation</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="navbar">
+        <div class="logo">
+          <h3 id="food">Food Facts</h3>
+        </div>
+        <nav>
+          <ul>
+            <li id="li">Studio</li>
+            <li id="li">Partners</li>
+            <li id="li">Media</li>
+            <li id="li">User</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="circle-box">
+        <svg height="402" width="402">
+          <circle
+            r="200"
+            cx="201"
+            cy="201"
+            stroke-width="3px"
+            stroke="rgb(71, 71, 71)"
+            fill="none"
+          />
+        </svg>
+        <svg height="402" width="402">
+          <circle
+            r="200"
+            cx="201"
+            cy="201"
+            stroke-width="3px"
+            stroke="#fff"
+            fill="none"
+            id="svgCircle"
+          />
+        </svg>
+        <div>
+          <span id="step1"> </span>
+          <span id="step2"> </span>
+          <span id="step3"> </span>
+          <span id="step4"> </span>
+          <span id="step5"> </span>
+        </div>
+
+        <div class="info" id="infoBox">
+          <div id="text-box1" class="text text-eggs">
+            <p>
+              Some eggs are laid by female animals of many different species,
+              including birds, reptiles, amphibians, mammals, and fish, and have
+              been eaten by humans for thousands of years.
+            </p>
+          </div>
+          <div id="text-box2" class="text text-pizza">
+            <p>
+              Pizza is a savory dish of Italian origin, consisting of a usually
+              round, flattened base of leavened wheat-based dough topped with
+              tomatoes, cheese, and often various other ingredients baked at a
+              high temperature, traditionally in a wood-fired oven.
+            </p>
+          </div>
+
+          <div id="text-box3" class="text light">
+            <p>
+              A hamburger is a sandwich consisting of one or more cooked patties
+              of ground meat, usually beef, placed inside a sliced bread roll or
+              bun. The patty may be pan fried, grilled, smoked or flame broiled.
+            </p>
+          </div>
+
+          <div id="text-box4" class="text text-pasta">
+            <p>
+              Pasta is a type of food typically made from an unleavened dough of
+              wheat flour mixed with water or eggs, and formed into sheets or
+              other shapes, then cooked by boiling or baking.
+            </p>
+          </div>
+
+          <div id="text-box5" class="text">
+            <p>
+              Meat is animal flesh that is eaten as food. Humans have hunted and
+              killed animals for meat since prehistoric times. The advent of
+              civilization allowed the domestication of animals such as
+              chickens, sheep, rabbits, pigs and cattle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
